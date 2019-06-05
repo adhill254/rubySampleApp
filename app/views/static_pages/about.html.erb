@@ -1,7 +1,18 @@
-<h1>Sample App</h1>
-<p>
-  All I do is WIN, WIN WIN.
-</p>
-<p>
-...No matter what...
-</p>
+<% provide(:title, "About") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      <%= yield(:title) %> | Ruby on Rails Tutorial Sample App
+    </title>
+  </head>
+  <body>
+    <h1>Sample App</h1>
+    <p>
+      All I do is WIN, WIN WIN.
+    </p>
+    <p>
+    ...No matter what...
+    </p>
+  </body>
+</html>
