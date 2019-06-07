@@ -1,0 +1,4 @@
+michael:
+  name: Michael Engle
+  email: mikeengle@nasa.gov
+  password_digest: <%= User.digest('password') %>
